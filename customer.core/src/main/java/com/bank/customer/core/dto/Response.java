@@ -1,4 +1,4 @@
-package com.bank.customer.command.api.dto;
+package com.bank.customer.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

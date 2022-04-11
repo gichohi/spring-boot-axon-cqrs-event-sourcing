@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class FindCustomerById {
+public class FindCustomerByIdQuery {
     private String id;
 }

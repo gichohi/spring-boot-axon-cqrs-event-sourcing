@@ -45,7 +45,12 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.bank</groupId>
+            <artifactId>customer.core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
