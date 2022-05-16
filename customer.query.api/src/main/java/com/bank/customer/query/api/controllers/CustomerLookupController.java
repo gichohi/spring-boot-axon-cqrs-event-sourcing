@@ -43,7 +43,7 @@ public class CustomerLookupController {
         }
     }
 
-    @GetMapping(path = "/byId/{id}")
+    @GetMapping(path = "/id/{id}")
     public ResponseEntity<CustomerLookupResponse> getCustomerById(@PathVariable(value = "id") String id) {
         try {
             FindCustomerByIdQuery query = new FindCustomerByIdQuery(id);
@@ -61,7 +61,7 @@ public class CustomerLookupController {
         }
     }
 
-    @GetMapping(path = "/byFilter/{filter}")
+    @GetMapping(path = "/filter/{filter}")
     public ResponseEntity<CustomerLookupResponse> searchCustomerByFilter(@PathVariable(value = "filter") String filter) {
         try {
             SearchCustomersQuery query = new SearchCustomersQuery(filter);
