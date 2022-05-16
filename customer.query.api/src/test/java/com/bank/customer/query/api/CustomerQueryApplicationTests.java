@@ -1,10 +1,10 @@
-package com.bank.customer.command.api;
+package com.bank.customer.query.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class CustomerQueryApplicationTests {
 
 	@Test
 	void contextLoads() {
